@@ -1,7 +1,7 @@
 import pickle
 import config
 
-text_file = open(config.TEXT_FILE, "r")
+text_file = open(config.TEXT_FILE, "r", encoding="utf-8")
 
 counter = {}
 
